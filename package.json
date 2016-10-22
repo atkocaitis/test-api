@@ -1,0 +1,14 @@
+{
+  "name": "api-tests",
+  "version": "0.1.0",
+  "description": "Web API tests",
+  "author": "Algirdas Atkocaitis",
+  "scripts": {
+    "test": "jasmine-node webservice/"
+  },
+  "devDependencies": {
+    "frisby": "git://github.com/vlucas/frisby.git#v2",
+    "jasmine-node": "^1.14.5",
+    "jsonschema": "^1.1.0"
+  }
+}
